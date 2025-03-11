@@ -1,41 +1,41 @@
-Welcome to Builder
+# Builder
 
-# Getting Started
+Welcome to Builder, a modern and flexible website builder developed with cutting-edge technologies. Builder allows users to create stunning websites with ease, leveraging a powerful set of tools and components.
 
-To run this application:
+## Features
 
-```bash
-pnpm install
-pnpm start
-```
+- **User-Friendly Interface**: Intuitive design that makes it easy for anyone to create websites without prior coding knowledge.
+- **Responsive Design**: Websites built with Builder are fully responsive, ensuring a great user experience on all devices.
+- **Customizable Components**: Utilize ShadcnUI components to create unique layouts and designs tailored to your needs.
+- **Tailwind CSS Integration**: Quickly style your components with Tailwind CSS, allowing for rapid development and customization.
 
-# Building For Production
+## Technologies Used
 
-To build this application for production:
+- **React**: A library for building user interfaces.
+- **TanStack**: A set of tools for state and data management.
+- **ShadcnUI**: A UI component library for React.
+- **Tailwind CSS**: A utility-first CSS framework for rapid and responsive styling.
 
-```bash
-pnpm build
-```
+## Getting Started
 
-## Testing
+To run this application locally, follow the steps below:
 
-This project uses [Vitest](https://vitest.dev/) for testing. You can run the tests with:
-
-```bash
-pnpm test
-```
-
-## Styling
-
-This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/builder.git
+   cd builder
+   ```
 
 
+2. Install the dependencies:
+    ```bash
+   pnpm install
+   ```
 
+3. Start the development server:
+    ```bash
+   pnpm start
+   ```
 
-## Shadcn
-
-Add components using the canary version of [Shadcn](https://ui.shadcn.com/).
-
-```bash
-pnpx shadcn@canary add button
-```
+## License
+This project is licensed under the MIT License.
