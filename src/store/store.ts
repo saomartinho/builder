@@ -10,10 +10,12 @@ export type Screen = ObjectValues<typeof screens>;
 
 export interface State {
   screen: Screen;
+  element: unknown;
 }
 
 export const initialState: State = {
   screen: screens.desktop,
+  element: null,
 };
 
 const builderContext = createAppContext(initialState);
